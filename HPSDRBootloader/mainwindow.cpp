@@ -174,7 +174,11 @@ void MainWindow::browse()
     //ui->jtagLineEdit->clear();
     QString dd = settings.value("dir").toString();
     QString fileName=QFileDialog::getOpenFileName(this,tr("Select File"),dd,tr("rbf Files (*.rbf)"));
-    if( fileName.contains("metis") || fileName.contains("Metis") || fileName.contains("hermes") || fileName.contains("Hermes") || fileName.contains("griffin") || fileName.contains("Griffin") || fileName.contains("angelia") || fileName.contains("Angelia") ){
+    if( fileName.contains("metis") || fileName.contains("Metis") ||
+        fileName.contains("hermes") || fileName.contains("Hermes") ||
+        fileName.contains("griffin") || fileName.contains("Griffin") ||
+        fileName.contains("angelia") || fileName.contains("Angelia") ||
+        fileName.contains("orion") || fileName.contains("Orion")){
       QFileInfo *fileif = new QFileInfo(fileName);
       qDebug() << fileif->filePath();
       settings.setValue("dir", fileif->filePath());
