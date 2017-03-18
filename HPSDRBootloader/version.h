@@ -1,8 +1,8 @@
 #ifndef VERSION_H
 #define VERSION_H
 
-#define VERSION "(version 2.0.4.4)"
-#define RELEASE "2015-1-29"
+#define VERSION "(version 2.0.4.5)"
+#define RELEASE "2017-3-17"
 
 // Version 1.0 initial release
 // Version 1.1 fixes from Berndt VK5ABN for Windows
