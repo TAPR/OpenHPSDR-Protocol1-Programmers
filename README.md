@@ -1,2 +1,2 @@
-# OpenHPSDR-Original-Programmers
-HPSDR Programmers for the Original Protocol
+# OpenHPSDR-Protocol1-Programmers
+HPSDR Programmers for the Original Protocol (protocol1)
